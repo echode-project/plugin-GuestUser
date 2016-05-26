@@ -25,7 +25,7 @@ msgid "Login"
 msgstr ""
 
 #: GuestUserPlugin.php:75 GuestUserPlugin.php:217
-#: controllers/UserController.php:222 views/public/user/register.php:6
+#: controllers/UserController.php:226 views/public/user/register.php:6
 msgid "Register"
 msgstr ""
 
@@ -159,89 +159,93 @@ msgstr ""
 msgid "Incorrect password"
 msgstr ""
 
-#: controllers/UserController.php:155
+#: controllers/UserController.php:156
+msgid "You can now log in using the password you chose."
+msgstr ""
+
+#: controllers/UserController.php:158
 msgid ""
 "Please check the email we just sent you for the next steps! You're almost "
 "there!"
 msgstr ""
 
-#: controllers/UserController.php:159
+#: controllers/UserController.php:163
 msgid "Invalid token"
 msgstr ""
 
-#: controllers/UserController.php:204 views/public/user/update-account.php:4
+#: controllers/UserController.php:208 views/public/user/update-account.php:4
 msgid "Password again for match"
 msgstr ""
 
-#: controllers/UserController.php:214
+#: controllers/UserController.php:218
 msgid "Please verify you're a human"
 msgstr ""
 
-#: controllers/UserController.php:220
+#: controllers/UserController.php:224
 msgid "Update"
 msgstr ""
 
-#: controllers/UserController.php:231
+#: controllers/UserController.php:235
 #, php-format
 msgid "Thanks for joining %s!"
 msgstr ""
 
-#: controllers/UserController.php:234
+#: controllers/UserController.php:238
 #, php-format
 msgid "You can now log into %s using the password you chose."
 msgstr ""
 
-#: controllers/UserController.php:236
+#: controllers/UserController.php:240
 msgid ""
 "When an administrator approves your account, you will receive another "
 "message that you can use to log in with the password you chose."
 msgstr ""
 
-#: controllers/UserController.php:239
+#: controllers/UserController.php:243
 #, php-format
 msgid "Registration for %s"
 msgstr ""
 
-#: controllers/UserController.php:253
+#: controllers/UserController.php:257
 #, php-format
 msgid "Your request to join %s"
 msgstr ""
 
-#: controllers/UserController.php:254
+#: controllers/UserController.php:258
 msgid "this link"
 msgstr ""
 
-#: controllers/UserController.php:254
+#: controllers/UserController.php:258
 #, php-format
 msgid ""
-"You have registered for an account on %s. Please confirm your registration "
-"by following %s.  If you did not request to join %s please disregard this "
-"email."
+"Welcome to the %s community. Your registration has been successful, yet must "
+"be confirmed by following %s. Log in to comment on existing contributions "
+"and post stories and pictures of your own."
 msgstr ""
 
-#: controllers/UserController.php:257
+#: controllers/UserController.php:261
 #, php-format
 msgid ""
 "You have temporary access to %s for twenty minutes. You will need to confirm "
 "your request to join after that time."
 msgstr ""
 
-#: controllers/UserController.php:271
+#: controllers/UserController.php:275
 #, php-format
 msgid "New request to join %s"
 msgstr ""
 
-#: controllers/UserController.php:272
+#: controllers/UserController.php:276
 #, php-format
 msgid "A new user has confirmed that they want to join %s : %s"
 msgstr ""
 
-#: controllers/UserController.php:275
+#: controllers/UserController.php:279
 #, php-format
 msgid "%s has temporary access to the site."
 msgstr ""
 
-#: controllers/UserController.php:277
+#: controllers/UserController.php:281
 #, php-format
 msgid ""
 "You will need to make the user active and save the changes to complete "

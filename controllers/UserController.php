@@ -255,7 +255,7 @@ class GuestUser_UserController extends Omeka_Controller_AbstractActionController
         $url = WEB_ROOT . '/guest-user/user/confirm/token/' . $token->token;
         $siteUrl = absolute_url('/');
         $subject = __("Your request to join %s", $siteTitle);
-        $body = __("You have registered for an account on %s. Please confirm your registration by following %s.  If you did not request to join %s please disregard this email.", "<a href='$siteUrl'>$siteTitle</a>", "<a href='$url'>" . __('this link') . "</a>", $siteTitle);
+        $body = __("Welcome to the %s community. Your registration has been successful, yet must be confirmed by following %s. Log in to comment on existing contributions and post stories and pictures of your own.", "<a href='$siteUrl'>$siteTitle</a>", "<a href='$url'>" . __('this link') . "</a>", $siteTitle);
 
         if(get_option('guest_user_instant_access') == 1) {
             $body .= "<p>" . __("You have temporary access to %s for twenty minutes. You will need to confirm your request to join after that time.", $siteTitle) . "</p>";
