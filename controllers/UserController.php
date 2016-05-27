@@ -151,7 +151,7 @@ class GuestUser_UserController extends Omeka_Controller_AbstractActionController
             $record->save();
             $user = $db->getTable('User')->find($record->user_id);
             $this->_sendAdminNewConfirmedUserEmail($user);
-            $this->_sendConfirmedEmail($user);
+            //$this->_sendConfirmedEmail($user);
             if(get_option('guest_user_open') == 1) {
                 $message = __("You can now log in using the password you chose.");
             } else {
@@ -278,7 +278,7 @@ class GuestUser_UserController extends Omeka_Controller_AbstractActionController
             if(get_option('guest_user_instant_access') == 1) {
                 $body .= "<p>" . __("%s has temporary access to the site.", $user->username) . "</p>";
             }
-            $body .= "<p>" . __("You will need to make the user active and save the changes to complete registration for %s.", $user->username) . "</p>";
+            //$body .= "<p>" . __("You will need to make the user active and save the changes to complete registration for %s.", $user->username) . "</p>";
         }
 
         $mail = $this->_getMail($user, $body, $subject);
